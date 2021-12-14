@@ -14,7 +14,9 @@
             "email": "gerb200@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13"
+    },
     "description": "Short package description",
     "license": "MIT"
 }
