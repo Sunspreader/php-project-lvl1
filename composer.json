@@ -5,11 +5,16 @@
             "Hexlet\\Code\\": "src/"
         }
     },
+    "bin": [
+	    "bin/brain-games"
+    ],
     "authors": [
         {
             "name": "sunspreader",
             "email": "gerb200@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "description": "Short package description",
+    "license": "MIT"
 }
