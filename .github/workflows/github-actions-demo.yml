@@ -1,7 +1,7 @@
 name: lint
 on: [push]
 jobs:
-  Linter check:
+  Linter_check:
     runs-on: ubuntu-latest
     steps:
       - run: make lint
