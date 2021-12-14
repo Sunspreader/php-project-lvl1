@@ -4,5 +4,6 @@ jobs:
   Linter_check:
     runs-on: ubuntu-latest
     steps:
-      - run: pwd
+      - name: step_one
+        uses: actions/checkout@v2
       - run: make lint
