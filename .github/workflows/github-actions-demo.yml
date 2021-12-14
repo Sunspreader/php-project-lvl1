@@ -4,15 +4,12 @@ jobs:
   Linter_check:
     runs-on: ubuntu-latest
     steps:
-      - name: step_One
-        uses: actions/checkout@v2
-      - run: composer global config bin-dir --absolute
+      - uses: actions/checkout@v2
       - name: step_Two
-        uses: actions/checkout@v2
-      - run: composer global require "squizlabs/php_codesniffer=*"
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
       - name: step_Three
-        uses: actions/checkout@v2
-      - run: make all
+        run: make install
       - name: step_Four
-        uses: actions/checkout@v2
-      - run: make lint
+        run: make lint
