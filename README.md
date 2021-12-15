@@ -1,6 +1,6 @@
 ### Badges:
 
-[![Actions Status](https://github.com/Sunspreader/php-project-lvl1/workflows/Lint/badge.svg)](https://github.com/Sunspreader/php-project-lvl1/actions)
+[![Actions Status](https://github.com/Sunspreader/php-project-lvl1/workflows/lint/badge.svg)](https://github.com/Sunspreader/php-project-lvl1/actions)
 
 [![Actions Status](https://github.com/Sunspreader/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Sunspreader/php-project-lvl1/actions)
 
