@@ -23,6 +23,7 @@ function engine($question, $callback)
         } else {
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$localPack['correctAnswer']}'");
             line("Let's try again, {$name}!");
+            $roundCounter--;
             break;
         }
     }
