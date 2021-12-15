@@ -7,4 +7,4 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
-<script src="https://asciinema.org/a/14.js" id="asciicast-14" async></script>
+<script src="https://asciinema.org/a/456471" id="asciicast-14" async></script>
