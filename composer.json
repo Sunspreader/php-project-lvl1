@@ -9,14 +9,16 @@
             "src/Engine.php",
             "src/Games/PlayEven.php",
             "src/Games/PlayCalc.php",
-            "src/Games/PlayGcd.php"
+            "src/Games/PlayGcd.php",
+            "src/Games/PlayProgression.php"
         ]
     },
     "bin": [
 	    "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "authors": [
         {
