@@ -8,13 +8,15 @@
             "src/Cli.php",
             "src/Engine.php",
             "src/Games/PlayEven.php",
-            "src/Games/PlayCalc.php"
+            "src/Games/PlayCalc.php",
+            "src/Games/PlayGcd.php"
         ]
     },
     "bin": [
 	    "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "authors": [
         {
@@ -28,6 +30,6 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "3.*"
     },
-    "description": "Short package description",
+    "description": "php-project-lvl1 package",
     "license": "MIT"
 }
