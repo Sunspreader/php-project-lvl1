@@ -4,14 +4,16 @@ namespace Brain\Games\Engine;
 
 use function Brain\Games\Engine\engine;
 
-function prime($number){
+function prime($number)
+{
+    if ($number == 1) {
+        return 'no';
+    }
 
-    if ($number == 1)
-    return 'no';
-
-    for ($i = 2; $i <= $number / 2; $i++){
-        if ($number % $i == 0)
+    for ($i = 2; $i <= $number / 2; $i++) {
+        if ($number % $i == 0) {
             return 'no';
+        }
     }
     return 'yes';
 }
