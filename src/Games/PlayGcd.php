@@ -4,7 +4,6 @@ namespace Brain\Games\Engine;
 
 use function Brain\Games\Engine\engine;
 
-
 function gcd($one, $two)
 {
     $a = $one;
