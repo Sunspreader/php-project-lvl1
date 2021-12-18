@@ -4,7 +4,7 @@ namespace Brain\Games\Engine;
 
 use function Brain\Games\Engine\engine;
 
-function gcd(int $one, int $two) :int
+function gcd(int $one, int $two): int
 {
     $a = $one;
     $b = $two;
