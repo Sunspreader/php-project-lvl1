@@ -12,17 +12,17 @@ function playCalc()
 
         $randomOne = rand(0, 15);
         $randomTwo = rand(0, 15);
-        $randomMarkKey = rand(0, 2);
+        $randomMarkKey = rand(1, 3);
         $correctAnswerStr = '';
         $correctAnswerInt = 0;
 
-        if ($randomMarkKey === 0) {
+        if ($randomMarkKey === 1) {
             $correctAnswerStr = "{$randomOne} + {$randomTwo}";
             $correctAnswerInt = $randomOne + $randomTwo;
-        } elseif ($randomMarkKey === 1) {
+        } elseif ($randomMarkKey === 2) {
             $correctAnswerStr = "{$randomOne} - {$randomTwo}";
             $correctAnswerInt = $randomOne - $randomTwo;
-        } elseif ($randomMarkKey === 2) {
+        } else {
             $correctAnswerStr = "{$randomOne} * {$randomTwo}";
             $correctAnswerInt = $randomOne * $randomTwo;
         }
