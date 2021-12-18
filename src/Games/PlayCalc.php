@@ -13,7 +13,6 @@ function playCalc()
         $randomOne = rand(0, 15);
         $randomTwo = rand(0, 15);
         $randomMarkKey = rand(0, 2);
-        $marks[] = ['+', '-', '*'];
         $correctAnswerStr = '';
         $correctAnswerInt = 0;
 
