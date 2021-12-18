@@ -4,7 +4,7 @@ namespace Brain\Games\Engine;
 
 use function Brain\Games\Engine\engine;
 
-function prime(int $number)
+function prime(int $number): string
 {
     if ($number == 1) {
         return 'no';
