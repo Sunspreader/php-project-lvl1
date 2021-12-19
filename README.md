@@ -17,16 +17,21 @@ https://getcomposer.org/download/
 ### Demonstration:
 
 - Brain-even:
+
 [![Brain-even](https://asciinema.org/a/456471.svg)](https://asciinema.org/a/456471)
 
 -  Brain-calc:
+
 [![asciicast](https://asciinema.org/a/456704.svg)](https://asciinema.org/a/456704)
 
 - Brain-gcd:
+
 [![asciicast](https://asciinema.org/a/456715.svg)](https://asciinema.org/a/456715)
 
 - Brain-progression:
+
 [![asciicast](https://asciinema.org/a/456729.svg)](https://asciinema.org/a/456729)
 
 - Brain-prime:
+
 [![asciicast](https://asciinema.org/a/457051.svg)](https://asciinema.org/a/457051)
