@@ -1,0 +1,11 @@
+brain-games:
+
+brain-even (make brain-even)
+
+brain-calc (make brain calc)
+
+brain-gcd (make brain-gcd)
+
+brain-progression (make brain-progressino)
+
+brain-prime (make brain-prime)

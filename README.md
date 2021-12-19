@@ -14,6 +14,9 @@ https://getcomposer.org/download/
 ### Installation:
     make install
 
+### List all games:
+    make show
+
 ### Demonstration:
 
 - Brain-even:

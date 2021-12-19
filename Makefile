@@ -3,6 +3,9 @@
 install:
 	@composer install
 
+show:
+	@cat games.info
+
 brain-games:
 	@./bin/brain-games
 
